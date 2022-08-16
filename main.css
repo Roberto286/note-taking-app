@@ -1,3 +1,37 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+body {
+  box-sizing: border-box;
+  width: 80%;
+  margin: 0 auto;
+}
+
 h1 {
-  color: red;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.text-box>textarea {
+  border: 1px solid black;
+  width: 100%;
+  min-height: 100px;
+  font-size: 30px;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  text-align: left;
+}
+
+button {
+  display: block;
+  width: 10%;
+  height: 50px;
+  margin-left: auto;
 }
