@@ -24,14 +24,22 @@ h1 {
 table {
   width: 100%;
 }
-
+tr {
+  display: flex;
+  justify-content: space-between;
+}
 th {
   text-align: left;
+  width: 100%;
 }
-
+td {
+  width: 100%;
+  overflow-x: auto;
+}
 button {
   display: block;
   width: 10%;
   height: 50px;
   margin-left: auto;
+  cursor: pointer;
 }
